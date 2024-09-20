@@ -22,6 +22,12 @@ vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
 vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
 vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 
+-- Buffers
+vim.keymap.set('n', '<leader>bn', '<cmd>bn<CR>', { desc = 'Go to next buffer' })
+vim.keymap.set('n', '<leader>bp', '<cmd>bp<CR>', { desc = 'Go to previous buffer' })
+vim.keymap.set('n', '<leader>bd', '<cmd>bd<CR>', { desc = 'Delete current buffer' })
+vim.keymap.set('n', '<leader>bD', '<cmd>bd!<CR>', { desc = 'Delete current buffer (Force)' })
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
