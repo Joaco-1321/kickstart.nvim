@@ -11,7 +11,7 @@ end ---@diagnostic disable-next-line: undefined-field
 vim.opt.rtp:prepend(lazypath)
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
 
 require('lazy').setup {
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
